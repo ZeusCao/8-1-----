@@ -14,6 +14,7 @@
 		C02DD4711F307580000409B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02DD46F1F307580000409B0 /* LaunchScreen.storyboard */; };
 		C02DD47C1F307580000409B0 /* __1_____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02DD47B1F307580000409B0 /* __1_____Tests.swift */; };
 		C02DD4871F307580000409B0 /* __1_____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02DD4861F307580000409B0 /* __1_____UITests.swift */; };
+		C07A77171F31AB7A00CCF2FF /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A77161F31AB7A00CCF2FF /* Bundle+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C02DD4631F307580000409B0 /* 8-1-反射机制.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "8-1-反射机制.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02DD4631F307580000409B0 /* XXX反射机制.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XXX反射机制.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02DD4661F307580000409B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C02DD4681F307580000409B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C02DD46B1F307580000409B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		C02DD4821F307580000409B0 /* 8-1-反射机制UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "8-1-反射机制UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02DD4861F307580000409B0 /* __1_____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__1_____UITests.swift"; sourceTree = "<group>"; };
 		C02DD4881F307580000409B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07A77161F31AB7A00CCF2FF /* Bundle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +89,7 @@
 		C02DD4641F307580000409B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C02DD4631F307580000409B0 /* 8-1-反射机制.app */,
+				C02DD4631F307580000409B0 /* XXX反射机制.app */,
 				C02DD4771F307580000409B0 /* 8-1-反射机制Tests.xctest */,
 				C02DD4821F307580000409B0 /* 8-1-反射机制UITests.xctest */,
 			);
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				C02DD4661F307580000409B0 /* AppDelegate.swift */,
+				C07A77161F31AB7A00CCF2FF /* Bundle+Extensions.swift */,
 				C02DD4681F307580000409B0 /* ViewController.swift */,
 				C02DD46A1F307580000409B0 /* Main.storyboard */,
 				C02DD46D1F307580000409B0 /* Assets.xcassets */,
@@ -142,7 +145,7 @@
 			);
 			name = "8-1-反射机制";
 			productName = "8-1-反射机制";
-			productReference = C02DD4631F307580000409B0 /* 8-1-反射机制.app */;
+			productReference = C02DD4631F307580000409B0 /* XXX反射机制.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C02DD4761F307580000409B0 /* 8-1-反射机制Tests */ = {
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C07A77171F31AB7A00CCF2FF /* Bundle+Extensions.swift in Sources */,
 				C02DD4691F307580000409B0 /* ViewController.swift in Sources */,
 				C02DD4671F307580000409B0 /* AppDelegate.swift in Sources */,
 			);
@@ -415,7 +419,7 @@
 				INFOPLIST_FILE = "8-1-反射机制/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.--1-----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "XXX反射机制";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -427,7 +431,7 @@
 				INFOPLIST_FILE = "8-1-反射机制/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.--1-----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "XXX反射机制";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +509,7 @@
 				C02DD48D1F307580000409B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C02DD48E1F307580000409B0 /* Build configuration list for PBXNativeTarget "8-1-反射机制Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				C02DD4901F307580000409B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C02DD4911F307580000409B0 /* Build configuration list for PBXNativeTarget "8-1-反射机制UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				C02DD4931F307580000409B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
